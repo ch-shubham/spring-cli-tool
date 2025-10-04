@@ -14,11 +14,6 @@ A beautiful, interactive command-line tool for creating Spring Boot projects usi
 
 ## Installation
 
-### Homebrew (macOS/Linux)
-```bash
-brew install ch-shubham/tap/spring-cli-tool
-```
-
 ### Manual Installation
 ```bash
 curl -o ~/.local/spring-cli-tool.zsh https://raw.githubusercontent.com/ch-shubham/spring-cli-tool/main/spring-cli-tool.zsh
