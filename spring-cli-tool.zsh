@@ -338,7 +338,7 @@ spring-cli() {
         
         printf "${BOLD}${BLUE}"
         printf "╔══════════════════════════════════════════════╗\n"
-        printf "║     🚀 Spring Initializr CLI Tool v2.0      ║\n"
+        printf "║     🚀 Spring Initializr CLI Tool v0.0.1      ║\n"
         printf "║      Create Spring Boot projects with FZF   ║\n"
         printf "╚══════════════════════════════════════════════╝\n"
         printf "${NC}\n\n"
@@ -801,7 +801,7 @@ spring-cli() {
     # Show help
     show_help() {
         printf "${YELLOW}⚠️  This tool is in development - errors may occur with version handling${NC}\n"
-        printf "${BOLD}${BLUE}Spring Initializr CLI Tool v2.0${NC}\n"
+        printf "${BOLD}${BLUE}Spring Initializr CLI Tool v0.0.1${NC}\n"
         echo ""
         printf "${BOLD}Usage:${NC}\n"
         echo "  spring-cli                        - Interactive mode with FZF (recommended)"

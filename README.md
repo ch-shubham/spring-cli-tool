@@ -1,3 +1,5 @@
+⚠️⚠️ This project is under development. Contributions are Welcome ⚠️⚠️ 
+
 # Spring-CLI tool
 
 A beautiful, interactive command-line tool for creating Spring Boot projects using Spring Initializr.
@@ -19,8 +21,10 @@ brew install ch-shubham/tap/spring-cli-tool
 
 ### Manual Installation
 ```bash
-curl -o /usr/local/bin/spring-cli https://raw.githubusercontent.com/ch-shubham/spring-cli-tool/main/spring-cli-tool.zsh
-chmod +x /usr/local/bin/spring-cli-tool
+curl -o ~/.local/spring-cli-tool.zsh https://raw.githubusercontent.com/ch-shubham/spring-cli-tool/main/spring-cli-tool.zsh
+chmod +x ~/.local/spring-cli-tool.zsh
+echo 'source ~/.local/spring-cli-tool.zsh' >> ~/.zshrc
+source ~/.zshrc
 ```
 
 ## Requirements
